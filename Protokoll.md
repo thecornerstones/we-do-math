@@ -10,3 +10,4 @@
   * Raphael hat das Problem gelöst -> Kabel war im falschen Loch
   * arbeiten an den Fähigkeiten eine gute Website zu erstellen -> Codecademy Kurs
   * Zuhause: GitHub Pages Video anschauen & [Tutorial zum erstellen von Websites](https://www.youtube.com/watch?v=3JluqTojuME), erst einmal (#1)
+  * Nächstes Mal: GitHub pages themes 
