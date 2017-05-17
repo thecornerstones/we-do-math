@@ -103,45 +103,58 @@
         <!--========== END HEADER ==========-->
 		
 		<div class="content-md container">
-            <div class="row margin-b-20">
-                <div class="col-sm-6">
-				<h2>Die Modellierung</h2>
+				<div class="row margin-b-20">
+					<div class="col-sm-6">
+						<h2>Die Modellierung</h2>
+					</div>
+				</div>
+			
+			
+			<div class="row">
+				<div class="col-sm-7 sm-margin-b-50">
+					<div class="margin-b-30">	
+						<h3>Exponentialfunktionen</h3> 
+							<p> Im Unterschied zu den Potenzfunktion, bei denen die Variable in der Basis ist, steht bei Exponentialfunktionen die Variable im Exponenten.<br/>
+							Zum Beispiel: f(x)= 2 <sup>x</sup>.<br/>
+							Die Funktionsgleichung der Exponentialfunktion ist f(x)= a<sup>x</sup>.<br/>
+							Der Graph einer Exponentialfunktion heißt Exponentialkurve und unterscheidet sich zwischen Basis a zwischen 0 und 1 oder Basis a größer als 1.
+							</p>
+							<p>Ist die Basis a zwischen 0 und 1 (0 < a < 1),so spricht man von einer exponentiellen Abnahme, z.B. f(x)=0.5<sup>x</sup>.<br/>
+							Ist die Basis größer als 1 (a<1), so spricht man von einem exponentiellen Wachstum, z.B. f(x)= 2<sup>x</sup>.
+							</p>
+
+						<h3>exponentielles Wachstum</h3> 
+							<p>Es gibt 2 Möglichkeiten einer Exponentialfunktion.
+							</p>
+							<p>1) "mit q" -> f(x)= a*q <sup>x</sup><br/>
+								  a ist der Anfangswert und q ist der Quotient zweier aufeinanderfolgender Funktionswerte (Wachstumsfaktor).<br/>
+								  Ist q größer als 1 so handelt es sich um ein Wachstum. Ist q zwischen 0 und 1 so handelt es sich um einen Zerfall.
+							</p>
+							<p>2) "mit e" -> f(x)= a*e<sup>k*x</sup> (natürliche Exponentailfunktion)<br/>
+								 Der Zusammenhang zwischen k und q ist k= ln(q) und q= e<sup>k</sup>.<br/>
+								 Zu beachten ist, dass man zum Ableiten die natürliche Exponentialfunktion verwendet wie zum Beispiel bei der momentanen Änderungsrate.
+							</p>
+							<h4>Unterschiedliche Arten eine Exponentialfunktion zu ermitteln:</h4>
+							<p>1) Anfangswert und einen Wert bzw. Punkt P(x/f(x))
+							</p>
+							<p>2) Anfangswert ist unbekannt und zwei Punkte sind bekannt P1 (x/f(x)) und P2(x/f(x)) -> einsetzen in die Funktionsgleichung<br/>
+							Hierbei erstellt man ein lineares Gleichungssystem und löst es auf.
+							</p>
+							<p>3) Mit Hilfe einer Regression. Hierbei muss eine Punktwolke (mehrere Werte) gegeben sein!<br/>
+							Der Taschenrechner liefert den Anfangswert und den Wachstumsfaktor.
+							<p/>
+
+						<h3>Änderungsraten:</h3> 
+							<p>1) durchschnitliche Änderungsrate:  m= f(x<sub>1</sub>)- f(x<sub>0</sub>)/x-x<sub>0</sub>
+							</p>
+							<p>2) momentane Änderungsrate ( natürliche Exponential Funktion!<br/>
+							Dabei leitet man die natürliche Exponentialfunktion einmal ab und setzt den vorgegebenen Wert ein für die momentane Änderungsrate.
+							</p>
+					</div>
+				</div>
 			</div>
 		</div>
 		
-		<div class="row">
-                <div class="col-sm-7 sm-margin-b-50">
-                    <div class="margin-b-30">	
-					<h3>Exponentialfunktionen</h3> 
- <p> Im Unterschied zu den Potenzfunktion, bei denen die Variable in der Basis ist, steht bei Exponentialfunktionen die Variable im Exponenten.Zum Beispiel:
-  f(x)= 2 <sup>x</sup>.
-  Die Funktionsgleichung der Exponentialfunktion ist f(x)= a<sup>x</sup>.
-  Der Graph einer Exponentialfunktion heißt Exponentialkurve und unterscheidet sich zwischen Basis a zwischen 0 und 1 oder Basis a größer als 1. 
-  Ist die Basis a zwischen 0 und 1 (0 < a < 1),so spricht man von einer exponentiellen Abnahme, z.B. f(x)=0.5<sup>x</sup>.
-  Ist die Basis größer als 1 (a<1), so spricht man von einem exponentiellen Wachstum, z.B. f(x)= 2<sup>x</sup>.
-  </p>
-
-<h3>exponentielles Wachstum</h3> 
-<p>Es gibt 2 Möglichkeiten einer Exponentialfunktion.
-<br/>1) "mit q" -> f(x)= a*q <sup>x</sup>
-      a ist der Anfangswert und q ist der Quotient zweier aufeinanderfolgender Funktionswerte (Wachstumsfaktor).
-      Ist q größer als 1 so handelt es sich um ein Wachstum. Ist q zwischen 0 und 1 so handelt es sich um einen Zerfall.
-<br/>2) "mit e" -> f(x)= a*e<sup>k*x</sup> (natürliche Exponentailfunktion)
-     Der Zusammenhang zwischen k und q ist k= ln(q) und q= e<sup>k</sup>.
-     Zu beachten ist, dass man zum Ableiten die natürliche Exponentialfunktion verwendet wie zum Beispiel bei der momentanen Änderungsrate.
-<h4>Unterschiedliche Arten eine Exponentialfunktion zu ermitteln:</h4>
-<p>1) Anfangswert und einen Wert bzw. Punkt P(x/f(x))
-<br/>2) Anfangswert ist unbekannt und zwei Punkte sind bekannt P1 (x/f(x)) und P2(x/f(x)) -> einsetzen in die Funktionsgleichung
-<br/>Hierbei erstellt man ein lineares Gleichungssystem und löst es auf.
-<br/>3) Mit Hilfe einer Regression. Hierbei muss eine Punktwolke (mehrere Werte) gegeben sein!
-<br/>Der Taschenrechner liefert den Anfangswert und den Wachstumsfaktor.
-<p/>
-
-<h4>Änderungsraten:</h4> 
-<p>1) durchschnitliche Änderungsrate:  m= f(x<sub>1</sub>)- f(x<sub>0</sub>)/x-x<sub>0</sub>
-<br/>2) momentane Änderungsrate ( natürliche Exponential Funktion!)
-<br/>Dabei leitet man die natürliche Exponentialfunktion einmal ab und setzt den vorgegebenen Wert ein für die momentane Änderungsrate.
-</p>
         <!--========== FOOTER ==========-->
         <footer class="footer">
             <!-- Links -->
